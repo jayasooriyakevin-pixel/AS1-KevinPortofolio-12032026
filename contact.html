@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kevin's Portfolio - Contact</title>
+    <title>Kevin's Portfolio - Video Demo</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -23,66 +23,34 @@
     </nav>
 
     <main>
-        <section class="contact-page">
-            <h1>Contact Me</h1>
-            <p class="section-intro">Feel free to reach out using the form below.</p>
+        <section class="video-page">
+            <h1>Video Demonstration</h1>
+            <p class="section-intro">Watch my 2-3 minute video demonstration of this portfolio website.</p>
             
-            <div class="contact-container">
-                <!-- Contact Information -->
-                <div class="contact-info">
-                    <h2>Get in Touch</h2>
-                    
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3>Email</h3>
-                            <p>kevin.jayasooriya25@my.northampton.ac.uk</p>
-                        </div>
-                    </div>
-                    
-                    <div class="info-item">
-                        <i class="fas fa-phone-alt"></i>
-                        <div>
-                            <h3>Phone</h3>
-                            <p>+44 1234 567890</p>
-                        </div>
-                    </div>
-                    
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h3>Location</h3>
-                            <p>University of Northampton, UK</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="video-container">
+                <!-- Replace with your YouTube video ID -->
+                <iframe 
+                    style="width: 100%; height: 500px; border: none;" 
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" 
+                    title="Portfolio Video Demonstration" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            
+            <div class="video-description">
+                <h2>About This Video</h2>
+                <p>This video demonstrates:</p>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> All 5 pages of the website</li>
+                    <li><i class="fas fa-check-circle"></i> Design decisions and color scheme</li>
+                    <li><i class="fas fa-check-circle"></i> CSS concepts used - Grid, Flexbox</li>
+                    <li><i class="fas fa-check-circle"></i> Responsive design on mobile</li>
+                </ul>
                 
-                <!-- Contact Form -->
-                <div class="contact-form-container">
-                    <h2>Send a Message</h2>
-                    <form action="mailto:kevin.jayasooriya25@my.northampton.ac.uk" method="post" enctype="text/plain" class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" required placeholder="Your full name">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required placeholder="Your email address">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="subject">Subject:</label>
-                            <input type="text" id="subject" name="subject" required placeholder="Message subject">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="message" rows="6" required placeholder="Your message here..."></textarea>
-                        </div>
-                        
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
+                <div class="video-alternate-link">
+                    <h3>Video Link:</h3>
+                    <p><a href="https://youtu.be/YOUR_VIDEO_ID_HERE" target="_blank">https://youtu.be/YOUR_VIDEO_ID_HERE</a></p>
                 </div>
             </div>
         </section>
