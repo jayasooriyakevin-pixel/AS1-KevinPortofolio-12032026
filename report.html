@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin's Portfolio - Report</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Kevin's Portfolio</div>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="videoDemo.html">Video Demo</a></li>
+            <li><a href="report.html">Report</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="report-page">
+            <h1>Development Report</h1>
+            <p class="section-intro">A reflection on my web development journey (325 words)</p>
+            
+            <div class="report-content">
+                <article class="report-section">
+                    <h2>My Learning Journey</h2>
+                    <p>
+                        When I first started this module, I had very little experience with HTML and CSS. 
+                        The initial weeks were challenging as I tried to understand the box model, 
+                        positioning, and how to structure a webpage properly. I remember spending hours 
+                        trying to center a div - a classic beginner struggle! However, through persistence 
+                        and practice, I gradually built my understanding.
+                    </p>
+                    <p>
+                        One of my biggest breakthroughs was understanding CSS Grid. Initially, I was using 
+                        float and position: absolute for everything, which made my layouts fragile. When I 
+                        discovered grid, everything clicked. I could create complex, responsive layouts with 
+                        just a few lines of code. The projects page of this portfolio uses a masonry-style 
+                        grid that demonstrates this learning.
+                    </p>
+                </article>
+                
+                <article class="report-section">
+                    <h2>Design Decisions</h2>
+                    <p>
+                        <strong>Color Scheme:</strong> I chose a dark theme with #1a1a2e for navigation 
+                        and #e94560 as the accent color. This combination creates a professional, modern 
+                        look that stands out. The dark background reduces eye strain, while the coral 
+                        accent draws attention to important elements.
+                    </p>
+                    <p>
+                        <strong>Typography:</strong> I selected 'Poppins' for headings and 'Open Sans' for 
+                        body text. Poppins gives a modern, geometric feel while Open Sans ensures readability 
+                        for longer text passages. Both are web-safe fonts via Google Fonts.
+                    </p>
+                    <p>
+                        <strong>Layout Inspiration:</strong> My home page layout was inspired by modern 
+                        portfolio sites on Awwwards and Dribbble. I wanted a hero section that immediately 
+                        introduces who I am, followed by skills and vision sections that tell my story.
+                    </p>
+                </article>
+                
+                <article class="report-section">
+                    <h2>Technical Implementation</h2>
+                    <p>
+                        <strong>CSS Grid vs Flexbox:</strong> I used CSS Grid for main page layouts 
+                        (home page hero section, skills grid, projects grid) because grid is two-dimensional 
+                        and perfect for overall page structure. Flexbox was used for navigation menus and 
+                        aligning icons within cards where content flows in one direction.
+                    </p>
+                    <p>
+                        <strong>Responsive Design:</strong> I used a mobile-first approach with media queries 
+                        at 768px. The hamburger menu appears only on mobile and was implemented with JavaScript 
+                        toggling. On mobile, all sections stack vertically for optimal viewing.
+                    </p>
+                    <p>
+                        <strong>Animations:</strong> I added subtle hover animations on skill items and 
+                        project cards. The skill icons scale up slightly on hover, and project cards have 
+                        a smooth shadow transition. These micro-interactions improve user experience without 
+                        being distracting.
+                    </p>
+                </article>
+                
+                <article class="report-section">
+                    <h2>Validation & Testing</h2>
+                    <div class="validation-gallery">
+                        <div class="validation-item">
+                            <h3>HTML Validation</h3>
+                            <img src="images/validation-html.jpg" alt="HTML Validation Passed" class="validation-img">
+                            <p class="validation-caption">✅ All HTML files pass validation</p>
+                        </div>
+                        <div class="validation-item">
+                            <h3>CSS Validation</h3>
+                            <img src="images/validation-css.jpg" alt="CSS Validation Passed" class="validation-img">
+                            <p class="validation-caption">✅ CSS validates successfully</p>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="report-section">
+                    <h2>Video Demonstration URL</h2>
+                    <div class="video-url-box">
+                        <p><strong>YouTube Link:</strong></p>
+                        <p><a href="https://youtu.be/YOUR_VIDEO_ID_HERE" target="_blank">https://youtu.be/YOUR_VIDEO_ID_HERE</a></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="quick-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="videoDemo.html">Video Demo</a></li>
+                    <li><a href="report.html">Report</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacts</h3>
+                <p><i class="fas fa-envelope"></i> kevin.jayasooriya25@my.northampton.ac.uk</p>
+                <p><i class="fas fa-phone"></i> +44 1234 567890</p>
+                <p><i class="fas fa-map-marker-alt"></i> Northampton, UK</p>
+            </div>
+            <div class="footer-section">
+                <h3>Social Media</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/kjlife._12_" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@ke_vj" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://snapchat.com/t/JQw2aEWL" target="_blank"><i class="fab fa-snapchat"></i></a>
+                    <a href="https://www.youtube.com/@kevinjayasooriya4391" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Kevin Jayasooriya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
