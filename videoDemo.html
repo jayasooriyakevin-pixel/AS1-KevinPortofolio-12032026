@@ -27,32 +27,36 @@
             <h1>Video Demonstration</h1>
             <p class="section-intro">Watch my 2-3 minute video demonstration of this portfolio website.</p>
             
+            <!-- Embedded Video - Fixed URL (removed si parameter) -->
             <div class="video-container">
-                <!-- Replace with your YouTube video ID -->
                 <iframe 
                     width="100%" 
                     height="500" 
-                    src="https://youtu.be/H9ZJ3JwiM_A?si=AHBj--EG7NanFL78" 
-                    title="Portfolio Video Demonstration" 
+                    src="https://www.youtube.com/embed/H9ZJ3JwiM_A" 
+                    title="Kevin's Portfolio Web Development Demonstration"
                     frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
                     allowfullscreen>
                 </iframe>
             </div>
             
+            <!-- Fallback Link in case embed fails -->
             <div class="video-description">
                 <h2>About This Video</h2>
-                <p>This video demonstrates:</p>
+                <p>This 2-minute video demonstrates:</p>
                 <ul>
-                    <li><i class="fas fa-check-circle"></i> All 5 pages of the website</li>
-                    <li><i class="fas fa-check-circle"></i> Design decisions and color scheme</li>
-                    <li><i class="fas fa-check-circle"></i> CSS concepts used - Grid, Flexbox</li>
-                    <li><i class="fas fa-check-circle"></i> Responsive design on mobile</li>
+                    <li><i class="fas fa-check-circle"></i> All 5 pages of the website (Home, Projects, Contact, Video Demo, Report)</li>
+                    <li><i class="fas fa-check-circle"></i> Design decisions - color scheme, typography, layout choices</li>
+                    <li><i class="fas fa-check-circle"></i> CSS concepts used - Grid, Flexbox, Animations, Media Queries</li>
+                    <li><i class="fas fa-check-circle"></i> Responsive design on mobile vs desktop</li>
+                    <li><i class="fas fa-check-circle"></i> HTML structure and semantic tags</li>
                 </ul>
                 
                 <div class="video-alternate-link">
-                    <h3>Video Link:</h3>
-                    <p><a href="https://youtu.be/YOUR_VIDEO_ID_HERE" target="_blank">https://youtu.be/YOUR_VIDEO_ID_HERE</a></p>
+                    <h3>If video doesn't load:</h3>
+                    <p><i class="fab fa-youtube"></i> <a href="https://youtu.be/H9ZJ3JwiM_A" target="_blank">Click here to watch on YouTube</a></p>
+                    <p class="note">Video opens in a new tab - make sure you're logged into YouTube if it's unlisted</p>
                 </div>
             </div>
         </section>
